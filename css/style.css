@@ -74,10 +74,13 @@ header {
     align-items: center;
     width: 100%;
     animation: fadeIn 1s forwards;
+    gap: 40px;
 }
+
 
 .header-container h1, .header-container h2 {
     margin-left: 1rem;
+  
 }
 
 .header-container nav a {
@@ -87,6 +90,7 @@ header {
 }
 
 .sign-up-button {
+
     background-color: var(--button-bg-color);
     color: var(--button-text-color);
     padding: 0.5rem 1rem;
@@ -559,6 +563,18 @@ footer {
     .details-button{
         margin-top: 1px;
     }
+    .nav-cont{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .nav-text{
+        display: flex;
+    
+    }
+    .sign-up-button{
+        display: flex;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -583,11 +599,16 @@ footer {
         order: 1;
 
     }
-    .places-grid__title{
-        
-
+    .nav-cont{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
-    .places-grid__text{
-
+    .nav-text{
+        display: flex;
+    
+    }
+    .sign-up-button{
+        display: flex;
     }
 }
