@@ -286,3 +286,21 @@ footer {
 .footer-column p {
     margin-bottom: 0.5rem;
 }
+@media (max-width: 767px) {
+.nav-cont{
+    display: flex;
+    flex-direction: column;
+}
+.profile-section{
+    display: flex;
+    flex-direction: column;
+}
+.picture-frame{
+    margin-top: 5%;
+}
+.favorite-item{
+    display: flex;
+    flex-direction: column;
+
+}
+}
